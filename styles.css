@@ -1,0 +1,110 @@
+
+body{
+    background-color: lightgray;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+
+
+/* HEADER */
+header{
+    background-color: rgb(87, 87, 87);
+    color: rgba(255,255,255,1);
+    padding: 10px;
+    margin:0;
+}
+
+.name{
+    font-weight: lighter;
+}
+
+/* MAIN */
+
+h1,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color:white;
+}
+
+a:visited{
+    color:black;
+}
+
+
+.about{
+    text-align: justify;
+    background: rgba(80, 80, 80, 0.486);
+    
+    padding: 7px 10%;
+    
+    margin:0;
+}
+
+.studies,.habilities,.social{
+    background-color: rgba(110, 110, 110, 0.425);
+    width: 50%;
+    padding: 20px 10%;
+    border-radius: 40px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.studies{
+
+}
+
+.habilities{
+    left: 30%;
+
+}
+
+.social{
+    margin-bottom: 20px;
+}
+
+hr{
+    background-color: black;
+    border: 1px solid #0a0a23;
+    margin:0;
+}
+
+form{
+    width: 70vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+    padding: 2em 1em;
+    border-radius: 2%;
+    background-color: rgb(21, 21, 48);
+}
+
+label{
+    display: block;
+    margin: 0.5rem 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+input,textarea,select {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 2em;
+    color: #797979;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: grey;
+    padding: 3vw;
+}
